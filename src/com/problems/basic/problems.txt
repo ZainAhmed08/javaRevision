@@ -1,0 +1,59 @@
+Problem 1: Sum of Integers
+Write a program that calculates and prints the sum of integers from 1 to 100.
+
+Problem 2: Factorial
+Write a program that calculates the factorial of a given number.
+
+Problem 3: Palindrome Check
+Write a program to check if a given string is a palindrome.
+
+Problem 4: Prime Numbers                                                      // incomplete.
+Write a program that prints all prime numbers between 1 and 50.
+
+Problem 5: Fibonacci Series
+Write a program to generate the first 10 numbers in the Fibonacci series.
+
+Problem 6: Reverse a String
+Write a program that reverses a given string without using built-in reverse functions.
+
+Problem 7: Array Rotation
+Write a program to rotate the elements of an array to the left by a given number of positions.
+
+Problem 8: Duplicate Elements
+Write a program to find and print duplicate elements in an array.
+
+Problem 9: Armstrong Number
+Write a program to check if a given number is an Armstrong number.
+
+Problem 10: Bubble Sort
+Write a program to perform a bubble sort on an array of integers.
+
+Problem 11: GCD and LCM Calculation
+Write a program that calculates and prints the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given numbers.
+
+Problem 12: String Anagrams                                                   // GET A SECOND LOOK AT THE SWAPPING AND UPDATING VALUE IN THE SWAPPING VALUES.
+Write a program that checks if two given strings are anagrams of each other.
+
+Problem 13: Decimal to Binary Conversion                                        // incomplete
+Write a program that converts a given decimal number to its binary representation.
+
+Problem 14: Matrix Multiplication                                                   // at the end took help of chat gpt and youtube to solve this , need to have another attempt all alone on this to perfect it
+Write a program that multiplies two matrices of appropriate dimensions.
+
+Problem 15: Substring Search                                                       // paused will see later
+Write a program that finds and prints all occurrences of a given substring in a larger string.
+
+Problem 16: Unique Characters in a String
+Write a program that checks if a given string has all unique characters.
+
+Problem 17: Pascal's Triangle                                                      // will look afterwards
+Write a program to generate the first few rows of Pascal's Triangle.
+
+Problem 18: Anagram Palindrome
+Write a program that checks if a given string can form a palindrome when rearranged.
+
+Problem 19: Sum of Primes
+Write a program that calculates and prints the sum of the first 50 prime numbers.
+
+Problem 20: Selection Sort
+Write a program to perform the Selection Sort algorithm on an array of integers.
