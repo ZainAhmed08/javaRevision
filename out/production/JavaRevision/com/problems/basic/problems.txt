@@ -46,7 +46,7 @@ Write a program that finds and prints all occurrences of a given substring in a 
 Problem 16: Unique Characters in a String
 Write a program that checks if a given string has all unique characters.
 
-Problem 17: Pascal's Triangle
+Problem 17: Pascal's Triangle                                                      // will look afterwards
 Write a program to generate the first few rows of Pascal's Triangle.
 
 Problem 18: Anagram Palindrome
