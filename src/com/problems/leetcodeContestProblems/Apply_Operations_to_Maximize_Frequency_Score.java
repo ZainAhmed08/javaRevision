@@ -1,4 +1,7 @@
 package com.problems.leetcodeContestProblems;
+
+import java.util.Arrays;
+
 //        You are given a 0-indexed integer array nums and an integer k.
 //
 //        You can perform the following operation on the array at most k times:
@@ -33,9 +36,56 @@ package com.problems.leetcodeContestProblems;
 //        0 <= k <= 1014
 public class Apply_Operations_to_Maximize_Frequency_Score {
     public static int maxFrequencyScore(int[] nums, long k) {
-        int maxFrequency = 0;
-        
-        return 0;
+        int maxFrequency = maxRepeatingElement(nums);
+        long operations = k;
+         for(int i = 0 ; i < nums.length ; i++){
+             for(int j = i ; j < nums.length ;  j++){
+                 if(nums[i] > nums[j]){
+                     int temp = nums[j];
+                     nums[j] = nums[i];
+                     nums[i] = temp;
+                 }
+             }
+         }
+        for(int i = 0 ; i < nums.length ; i++){
+            System.out.print(nums[i] + " , ");
+        }
+        for(int i = 0 ; i < nums.length ; i++){
+            System.out.println("the current nums["+i+"] : "+ nums[i]);
+            for(int j = 0 ; j < nums.length ; j++){
+                int original = nums[j];
+                int diff = Math.abs(nums[i] - nums[j]);
+                System.out.println("The diffrence : nums["+i+"] - nums["+j+"] : "+diff);
+                if(diff == k && nums[i] == nums[j]+k){
+                    System.out.println("adding k : "+k+" to nums["+j+"] : "+nums[j]+" --------> nums["+j+"] : "+(nums[j]+k)+" current k : 0");
+                    nums[j] = nums[j] + (int)k ;
+                    k = 0;
+                    break;
+                } else if (diff == k && nums[i] == nums[j]-k) {
+                    System.out.println("subtracting k : "+k+" from nums["+j+"] : "+nums[j]+" --------> nums["+j+"] : "+(nums[j]-k)+" current k : 0");
+                    nums[j] = nums[j] - (int)k;
+                    k = 0;
+                    break;
+                } else if (diff < k && nums[i] == nums[j]+diff) {
+                    System.out.print("adding diff : "+diff+" to nums["+j+"] : "+nums[j]+" --------> nums["+j+"] : "+(nums[j]+diff));
+                    nums[j] = nums[j]+diff;
+                    k = k - diff;
+                    System.out.print(" reducing k value , new k : "+k);
+                    System.out.println();
+                } else if (diff < k && nums[i] == nums[j]-diff) {
+                    System.out.print("subtracting diff : "+diff+" to nums["+j+"] : "+nums[j]+" --------> nums["+j+"] : "+(nums[j]-diff));
+                    nums[j] = nums[j]-diff;
+                    k = k - diff;
+                    System.out.print(" reducing k value , new k : "+k);
+                    System.out.println();
+                }
+                maxFrequency = Math.max(maxRepeatingElement(nums),maxFrequency);
+                nums[j] = original;
+            }
+
+            k = operations;
+        }
+        return maxFrequency;
     }
 
     public static int maxRepeatingElement(int nums[]){
@@ -55,7 +105,12 @@ public class Apply_Operations_to_Maximize_Frequency_Score {
 
     public static void main(String[] args) {
         int nums[] = {1,2,6,4};
-        System.out.println("hello world");
-        System.out.println(maxRepeatingElement(nums));
+        int k = 3;
+//        System.out.println("hello world");
+//        System.out.println(maxRepeatingElement(nums));
+        System.out.println(maxFrequencyScore(nums , k));
+        for(int i = 0 ; i < nums.length ; i++){
+            System.out.print(nums[i] + " , ");
+        }
     }
 }
