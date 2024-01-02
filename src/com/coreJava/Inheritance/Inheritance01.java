@@ -1,9 +1,4 @@
-//Types of inheritances :
-// single inheritance
-// Multi inheritance ( interface based)
-// Multi Level inheritance
-// Hierarchical inheritance
-// Hybrid inheritance
+package com.coreJava.Inheritance;
 
 class Animal{
     String name;
@@ -20,7 +15,7 @@ class Animal{
     }
 }
 
-class Dog extends  Animal{
+class Dog extends Animal {
     public Dog(String name){
 //        super(name);        no need of a super() here since the super class has a no arg constructor.
         // but if the super class constructor does not have a no args constructor and super method is not used to instiantate the super class then an error will occure
