@@ -11,13 +11,12 @@ public class Example1 {
         // create a list and filter all even number form list
         List<Integer> list1 = Arrays.asList(12,34,53,34,64,33,65);
 
-        // filterint even number from the list and adding to a fresh list
+        // filtering even number from the list and adding to a fresh list
         List<Integer> evenList = new ArrayList<>();
 
         // without stream api :
         for(int n : list1){
-            int currentNumber = n;
-            if(currentNumber%2==0){
+            if(n %2==0){
                 evenList.add(n);
             }
         }
