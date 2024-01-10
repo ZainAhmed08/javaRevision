@@ -36,8 +36,6 @@ public class Example1 {
         // Stream opertaion on array
         String[] str = {"zain","Ahmed","Ayesha","Farhaan","Shahistha","sadiya"};
         Stream<String> arrayStream = Stream.of(str);
-        arrayStream.map(s -> s.toLowerCase()).filter(s -> s.startsWith("s")).forEach(e -> {
-            System.out.println(e);
-        });
+        arrayStream.map(String::toLowerCase).filter(s -> s.startsWith("s")).forEach(System.out::println);
     }
 }
