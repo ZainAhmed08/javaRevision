@@ -1,0 +1,29 @@
+Reverse a String:
+    Write a program to reverse a given string without using built-in reverse functions.
+
+Anagram Check:
+Write a program to check if two strings are anagrams of each other.
+
+Palindrome Check:
+Write a program to check if a given string is a palindrome.
+
+Count Vowels and Consonants:
+Write a program to count the number of vowels and consonants in a given string.
+
+Remove Duplicates:
+Write a program to remove duplicate characters from a string.
+
+String Compression:
+Implement a method to perform basic string compression using the counts of repeated characters. (e.g., "aabcccccaaa" -> "a2b1c5a3")
+
+String Rotation:
+Write a program to check if one string is a rotation of another. (e.g., "waterbottle" is a rotation of "erbottlewat")
+
+Longest Substring Without Repeating Characters:
+Given a string, find the length of the longest substring without repeating characters.
+
+String to Integer (atoi):
+Implement the atoi function, which converts a string to an integer.
+
+Implement strStr():
+Return the index of the first occurrence of the needle in the haystack, or -1 if needle is not part of haystack.
