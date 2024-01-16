@@ -1,0 +1,91 @@
+Core Java:
+OOP Concepts:
+
+Inheritance, Polymorphism, Encapsulation, Abstraction
+Interfaces and Abstract Classes
+Design Principles (SOLID principles)
+Collections Framework:
+
+Lists, Sets, Maps, Queues
+Iterators and Comparators
+Concurrency:
+
+Threads and synchronization
+Executors and Thread Pools
+Exception Handling:
+
+Try-catch blocks, throws, throw
+Custom Exceptions
+Java I/O:
+
+File handling, Input/Output Streams
+Lambda Expressions and Functional Interfaces:
+
+Basics of functional programming
+Java 8 Features:
+
+Stream API, Optional, Default Methods
+Java Memory Management:
+
+Garbage Collection
+------------------------------------------------------------------------
+Spring MVC:
+Spring MVC Basics:
+Architecture and components
+DispatcherServlet and Context Configuration
+
+Controllers and Request Mapping:
+Creating Controllers, handling requests
+Path variables, request parameters
+
+ViewResolver and Views:
+Thymeleaf, JSP, or other view technologies
+
+Form Handling:
+HTML Forms, @ModelAttribute, form validation
+
+Data Binding and Model Attributes:
+Binding data between controllers and views
+
+Interceptors and Filters:
+Customizing request handling
+---------------------------------------------------------------------------
+Spring Boot:
+Introduction to Spring Boot:
+
+Auto-configuration, convention over configuration
+Spring Boot Starters:
+
+Using predefined starters for common use cases
+Spring Boot Annotations:
+
+@SpringBootApplication, @RestController, etc.
+Spring Boot Data JPA:
+
+Simplifying data access with Spring Data JPA
+Spring Boot RESTful Services:
+
+Creating RESTful APIs
+Spring Boot Security:
+
+Basic authentication and authorization
+Spring Boot Testing:
+
+Unit and Integration testing in Spring Boot
+Spring Boot Actuator:
+
+Monitoring and managing Spring Boot applications
+Logging in Spring Boot:
+
+Using SLF4J and Logback
+Spring Boot Deployment:
+
+Packaging and deploying Spring Boot applications
+Microservices Concepts:
+
+Basic understanding of microservices architecture
+Remember to practice coding exercises related to these topics, as hands-on experience is crucial. Additionally, be prepared to answer questions about real-world scenarios and problem-solving using the mentioned technologies. Good luck with your interview preparation!
+
+
+
+
